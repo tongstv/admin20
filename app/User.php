@@ -4,10 +4,10 @@ namespace App;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-
+use Mpociot\Firebase\SyncsWithFirebase;
 class User extends \TCG\Voyager\Models\User
 {
-    use Notifiable;
+    use Notifiable, SyncsWithFirebase;
 
     /**
      * The attributes that are mass assignable.
