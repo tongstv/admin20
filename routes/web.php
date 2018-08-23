@@ -12,10 +12,16 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    $posts = App\Post::all();
+    
 
+    return view('home', compact('posts'));
+});
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
