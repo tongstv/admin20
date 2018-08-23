@@ -62,7 +62,44 @@
                                 </a>
                             </div>
                         </div>
+                        
+                        
                     </form>
+      
+
+
+<br />
+
+<div class="container">
+
+  <div class="row">
+
+        <div class="col-md-12 row-block text-center center-block">
+
+
+
+            <a href="login/google" class="btn btn-lg btn-primary btn-block">
+
+                <strong>Login With Google</strong>
+
+            </a> 
+            
+             <a href="login/facebook" class="btn btn-lg btn-primary btn-block">
+
+                <strong>Login With facebook</strong>
+
+            </a>     
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+                    
                 </div>
             </div>
         </div>
