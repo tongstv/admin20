@@ -1,11 +1,4 @@
 {
     "last_remote_check": 1535019860,
-    "hooks": {
-        "bread-templates": {
-            "name": "bread-templates",
-            "description": "Templating BREAD Views",
-            "version": "1.0.13",
-            "enabled": true
-        }
-    }
+    "hooks": []
 }

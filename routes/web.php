@@ -46,3 +46,15 @@ Route::get('/home', function () {
 
 
 
+Route::get('/domain', function () {
+    $menus = App\Menus::all();
+    
+
+    return view('home', compact('menus'));
+});
+
+
+
+
+
+
