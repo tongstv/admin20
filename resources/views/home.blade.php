@@ -15,6 +15,7 @@
                     @endif
 
                     You are logged in!
+                    {{menu('home_menu')}}
                 </div>
             </div>
         </div>

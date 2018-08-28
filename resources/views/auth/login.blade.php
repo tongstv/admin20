@@ -77,6 +77,8 @@
         <div class="col-md-12 row-block text-center center-block">
 
 
+        @if (setting('auth.google_id'))
+
 
             <a href="login/google" class="btn btn-lg btn-primary btn-block">
 
@@ -84,11 +86,17 @@
 
             </a> 
             
+@endif
+
+            
+            @if(setting('auth.facebook_id'))
              <a href="login/facebook" class="btn btn-lg btn-primary btn-block">
 
                 <strong>Login With facebook</strong>
 
-            </a>     
+            </a>   
+            
+            @endif  
 
         </div>
 
